@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headder {
+    background: #000000;
+    padding: 20px 10px;
+}
+.headder ul {
+    text-align: center;
+}
+.headder ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px 10px;
+    transition: .5s;
+}
+.headder ul li:hover {
+    background: #413f3f;
+}
+.headder ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.headder ul li {
+    position: relative;
+}
+.headder ul li ul {
+	position: absolute;
+	top: 132%;
+	left: 60%;
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+}
+.headder ul li ul li {
+    display: block;
+    border-top: 1px solid #fff;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, .5);
+    transition: .5s;
+}
+.headder ul li ul li:hover {
+    background: #000000;
+}
+.headder ul li ul li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 2px 30px;
+}
+.headder ul li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+}
+.headder ul li ul li {
+    position: relative;
+}
+.headder ul li ul li ul {
+	position: absolute;
+	top: 132%;
+	left: 100%;
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+    z-index: 100;
+}
+.headder ul li ul li ul li{
+    display: block;
+    border-radius: 2px;
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0, .5);
+    transition: 0.5s;
+}
+.headder ul li ul li ul li:hover {
+    background: #000000;
+}
+.headder ul li ul li ul li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 2px 30px;
+}
+.headder ul li ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+/* Heddar Section End  */
+
+.banner {
+    background-image: url(https://i.ibb.co/ftyrFHD/young-mens.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 20px;
+}
+.banner h1 {
+	color: #000000;
+	background: #fff;
+	padding: 15px 30px;
+	text-align: center;
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: 43%;
+}
+.banner h3 {
+	text-align: center;
+	background: #FFF;
+	padding: 10px 10px;
+	margin-bottom: 40px;
+}
+.banner a {
+	text-decoration: none;
+	background: red;
+	text-align: center;
+	padding: 10px 10px;
+	color: #fff;
+	margin-left: 47%;
+    transition: .5s;
+}
+.banner a:hover {
+    background: rgb(107, 21, 21);
+}
+/* Banner Section End */
+
+.slaider {
+    margin-top: 40px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    padding: 80px 30px;
+}
+.slaider h1 {
+	margin-top: -70px;
+	margin-bottom: 30px;
+}
+.slaider2 {
+    max-width: 1200px;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 2px 2px 10px -1px #ddd;
+}
+.slaider2 h1 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+    text-align: center;
+}
+/* Slaider Section End */
+
+.charchbar {
+    background: #f2f2f2;
+    padding: 30px 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+.charchbar input {
+	padding: 10px 165px;
+	border: none;
+	border-bottom: 1px solid red;
+}
+.charchbar a {
+    background: red;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+.charchbar a:hover{
+    background: rgb(161, 65, 65);
+}
+/* Charch bar Section End */
+
+.Gallary {
+    max-width: 1100px;
+    margin: auto;
+    box-sizing: border-box;
+    height: 295px;
+}
+.type {
+    margin-top: 20px;
+    border: 2px dotted #ddd;
+}
+.type ul {
+    display: inline-block;
+    margin: 10px 92px 50px;
+}
+.type ul li {
+    line-height: 30px;
+}
+.Gallary h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+.list1 li {
+    
+    list-style-type: lower-roman;
+}
+.list2 li {
+    list-style-type: square;
+    position: relative;
+    left: 211%;
+    top: -168px;
+}
+.list3 li {
+    list-style-type: lower-greek;
+    position: relative;
+    left: 428%;
+    top: -345px;
+}
+/* Glarry Section End */
+
+.footer {
+    background: #000;
+    padding: 30px 10px;
+}
+.footer p {
+    color: #fff;
+    text-align: center;
+}
+.footer ul {
+    text-align: center;
+}
+.footer ul li {
+    padding: 20px 10px;
+    display: inline-block;
+   
+}
+.footer ul li a {
+    color: #fff;
+    background: blue;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 43px;
+    font-size: 20px;
+}
